@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Nicol\\Escritorio\\Proyecto Ecommerce Castellano\\Manies.Ecommerce\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F11536A5-FF81-460C-A45C-A4A187761EF8}|Manies.Ecommerce.Domain.Core\\Manies.Ecommerce.Domain.Core.csproj|c:\\users\\nicol\\escritorio\\proyecto ecommerce castellano\\manies.ecommerce\\manies.ecommerce.domain.core\\customerdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11536A5-FF81-460C-A45C-A4A187761EF8}|Manies.Ecommerce.Domain.Core\\Manies.Ecommerce.Domain.Core.csproj|solutionrelative:manies.ecommerce.domain.core\\customerdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerDomain.cs",
+              "DocumentMoniker": "C:\\Users\\Nicol\\Escritorio\\Proyecto Ecommerce Castellano\\Manies.Ecommerce\\Manies.Ecommerce.Domain.Core\\CustomerDomain.cs",
+              "RelativeDocumentMoniker": "Manies.Ecommerce.Domain.Core\\CustomerDomain.cs",
+              "ToolTip": "C:\\Users\\Nicol\\Escritorio\\Proyecto Ecommerce Castellano\\Manies.Ecommerce\\Manies.Ecommerce.Domain.Core\\CustomerDomain.cs",
+              "RelativeToolTip": "Manies.Ecommerce.Domain.Core\\CustomerDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T18:39:00.929Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
