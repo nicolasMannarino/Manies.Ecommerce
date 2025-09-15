@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Manies.Ecommerce.Domain.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+938751db102aed55065b5e5fc856a92448bdbd89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+922316b62152ac1babac09e4800a8a7237f700ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("Manies.Ecommerce.Domain.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Manies.Ecommerce.Domain.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
