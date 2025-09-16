@@ -1,33 +1,41 @@
 ﻿using Manies.Ecommerce.Domain.Entity;
 using Manies.Ecommerce.Domain.Interface;
+using Manies.Ecommerce.Infrastructure.Interface;
 
 namespace Manies.Ecommerce.Domain.Core
 {
     public class CustomerDomain : ICustomerDomain
     {
-        public Task<bool> DeleteAsync(Customer customerId)
+        private readonly IUnitOfWork _unitOfWork;
+
+        public CustomerDomain(IUnitOfWork unitOfWork)
         {
-            throw new NotImplementedException();
+            _unitOfWork = unitOfWork;
         }
 
-        public Task<IEnumerable<Customer>> GetAllAsync()
+        public async Task<bool> DeleteAsync(string customerId)
         {
-            throw new NotImplementedException();
+            return await _unitOfWork.Customers.DeleteAsync(customerId);
         }
 
-        public Task<Customer> GetAsync(Customer customerId)
+        public async Task<IEnumerable<Customer>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _unitOfWork.Customers.GetAllAsync();
         }
 
-        public Task<bool> InsertAsync(Customer customer)
+        public async Task<Customer> GetAsync(string customerId)
         {
-            throw new NotImplementedException();
+            return await _unitOfWork.Customers.GetAsync(customerId);
         }
 
-        public Task<bool> UpdateAsync(Customer customer)
+        public async Task<bool> InsertAsync(Customer customer)
         {
-            throw new NotImplementedException();
+            return await _unitOfWork.Customers.InsertAsync(customer);
+        }
+
+        public async Task<bool> UpdateAsync(Customer customer)
+        {
+            return await _unitOfWork.Customers.UpdateAsync(customer);
         }
     }
 }

@@ -6,8 +6,8 @@ namespace Manies.Ecommerce.Domain.Interface
     {
         Task<bool> InsertAsync(Customer customer);
         Task<bool> UpdateAsync(Customer customer);
-        Task<bool> DeleteAsync(Customer customerId);
-        Task<Customer> GetAsync(Customer customerId);
+        Task<bool> DeleteAsync(string customerId);
+        Task<Customer> GetAsync(string customerId);
         Task<IEnumerable<Customer>> GetAllAsync();
 
 

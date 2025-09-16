@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Manies.Ecommerce.Domain.Entity\Manies.Ecommerce.Domain.Entity.csproj" />
     <ProjectReference Include="..\Manies.Ecommerce.Domain.Interface\Manies.Ecommerce.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Manies.Ecommerce.Infraestructure.Interface\Manies.Ecommerce.Infrastructure.Interface.csproj" />
   </ItemGroup>
 
 </Project>
