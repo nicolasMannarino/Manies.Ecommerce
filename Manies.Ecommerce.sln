@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -29,11 +29,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manies.Ecommerce.Applicatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manies.Ecommerce.Application.Validator", "Manies.Ecommerce.Application.Validator\Manies.Ecommerce.Application.Validator.csproj", "{49455520-1715-4E58-BA46-2231E0E6EFFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manies.Ecommerce.Infraestructure.Data", "Manies.Ecommerce.Infraestructure.Data\Manies.Ecommerce.Infraestructure.Data.csproj", "{232D58C5-A9DD-4C10-A673-6A9899754A91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manies.Ecommerce.Infrastructure.Data", "Manies.Ecommerce.Infraestructure.Data\Manies.Ecommerce.Infrastructure.Data.csproj", "{232D58C5-A9DD-4C10-A673-6A9899754A91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manies.Ecommerce.Infraestructure.Interface", "Manies.Ecommerce.Infraestructure.Interface\Manies.Ecommerce.Infraestructure.Interface.csproj", "{2187406D-C3BB-418E-BE30-23E11CD4B163}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manies.Ecommerce.Infraestructure.Repository", "Manies.Ecommerce.Infraestructure.Repository\Manies.Ecommerce.Infraestructure.Repository.csproj", "{8A65EA7A-482C-4C76-BF68-5EDBD0065446}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manies.Ecommerce.Infrastructure.Interface", "Manies.Ecommerce.Infraestructure.Interface\Manies.Ecommerce.Infrastructure.Interface.csproj", "{2187406D-C3BB-418E-BE30-23E11CD4B163}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manies.Ecommerce.Transversal.Login", "Manies.Ecommerce.Transversal.Login\Manies.Ecommerce.Transversal.Login.csproj", "{A1B16778-BF25-4BE7-8823-A8CDEB8CB4D2}"
 EndProject
@@ -44,6 +42,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manies.Ecommerce.Services.WebApi", "Manies.Ecommerce.Services.WebApi\Manies.Ecommerce.Services.WebApi.csproj", "{45964AD0-AE44-4A8C-92B3-725273D958BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manies.Ecommerce.Application.IntegrationTest", "Manies.Ecommerce.Application.IntegrationTest\Manies.Ecommerce.Application.IntegrationTest.csproj", "{D7645FB9-98EF-4153-9320-7B25D7D026B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manies.Ecommerce.Infrastructure.Repository", "Manies.Ecommerce.Infrastructure.Repository\Manies.Ecommerce.Infrastructure.Repository.csproj", "{2706E838-4AD1-41D2-9D27-8697E6EA0DB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,10 +87,6 @@ Global
 		{2187406D-C3BB-418E-BE30-23E11CD4B163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2187406D-C3BB-418E-BE30-23E11CD4B163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2187406D-C3BB-418E-BE30-23E11CD4B163}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A65EA7A-482C-4C76-BF68-5EDBD0065446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A65EA7A-482C-4C76-BF68-5EDBD0065446}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A65EA7A-482C-4C76-BF68-5EDBD0065446}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A65EA7A-482C-4C76-BF68-5EDBD0065446}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A1B16778-BF25-4BE7-8823-A8CDEB8CB4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A1B16778-BF25-4BE7-8823-A8CDEB8CB4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1B16778-BF25-4BE7-8823-A8CDEB8CB4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -111,6 +107,10 @@ Global
 		{D7645FB9-98EF-4153-9320-7B25D7D026B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7645FB9-98EF-4153-9320-7B25D7D026B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7645FB9-98EF-4153-9320-7B25D7D026B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2706E838-4AD1-41D2-9D27-8697E6EA0DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2706E838-4AD1-41D2-9D27-8697E6EA0DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2706E838-4AD1-41D2-9D27-8697E6EA0DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2706E838-4AD1-41D2-9D27-8697E6EA0DB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,12 +125,12 @@ Global
 		{49455520-1715-4E58-BA46-2231E0E6EFFB} = {03626D19-6C2F-4D92-94C9-993D2B1C3416}
 		{232D58C5-A9DD-4C10-A673-6A9899754A91} = {F1E99650-3D57-4641-A228-B106B86FF8CA}
 		{2187406D-C3BB-418E-BE30-23E11CD4B163} = {F1E99650-3D57-4641-A228-B106B86FF8CA}
-		{8A65EA7A-482C-4C76-BF68-5EDBD0065446} = {F1E99650-3D57-4641-A228-B106B86FF8CA}
 		{A1B16778-BF25-4BE7-8823-A8CDEB8CB4D2} = {6EB58378-E347-4DD8-AFA4-87D039E922BB}
 		{C2AB872A-AA4A-40F2-91A2-E9663E43A4CC} = {6EB58378-E347-4DD8-AFA4-87D039E922BB}
 		{D337CF4C-B2CB-4515-89EF-56ABDFAF671A} = {6EB58378-E347-4DD8-AFA4-87D039E922BB}
 		{45964AD0-AE44-4A8C-92B3-725273D958BC} = {0AED98E2-6DDC-4C2F-B75B-D76740019812}
 		{D7645FB9-98EF-4153-9320-7B25D7D026B8} = {8073F7A2-1DA9-45F9-A377-9D499ECE0320}
+		{2706E838-4AD1-41D2-9D27-8697E6EA0DB2} = {F1E99650-3D57-4641-A228-B106B86FF8CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4268CFDD-9C6F-41C2-AB31-D19EFD8E9C26}
