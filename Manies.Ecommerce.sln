@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applicacion", "Applicacion", "{03626D19-6C2F-4D92-94C9-993D2B1C3416}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{03626D19-6C2F-4D92-94C9-993D2B1C3416}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{6EB58378-E347-4DD8-AFA4-87D039E922BB}"
 EndProject

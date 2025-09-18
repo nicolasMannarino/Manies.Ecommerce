@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Manies.Ecommerce.Application.DTO\Manies.Ecommerce.Application.DTO.csproj" />
+    <ProjectReference Include="..\Manies.Ecommerce.Transversal.Common\Manies.Ecommerce.Transversal.Common.csproj" />
+  </ItemGroup>
+
 </Project>
